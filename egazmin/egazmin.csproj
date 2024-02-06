@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="list.jpg" />
+    <None Remove="paczka.jpg" />
+    <None Remove="pocztówka.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="list.jpg" />
+    <Resource Include="paczka.jpg" />
+    <Resource Include="pocztówka.png" />
+  </ItemGroup>
+
+</Project>
